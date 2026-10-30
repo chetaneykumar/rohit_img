@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # Load trained model
-model = tf.keras.models.load_model("cat.keras")
+model = tf.keras.models.load_model("CAT.keras")
 
 # Load class names
 with open("classes.json", "r") as f:
